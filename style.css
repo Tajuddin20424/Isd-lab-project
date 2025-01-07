@@ -35,7 +35,6 @@
 }
 
 /* Header / Navbar part start  */
-
 body, html {
     margin: 0;
     padding: 0;
@@ -89,6 +88,11 @@ header {
     align-items: center;
     justify-content: space-between;
     width: 100%;
+    
+}
+
+.hero-content h1{
+    text-align: left;
 }
 
 .text-content {
@@ -99,15 +103,12 @@ header {
     color: #f3961c;
     font-size: 3rem;
     margin-bottom: 10px;
+    font-family: "miniver", sans-serif;
 }
 
 .text-content h2 {
     font-size: 1.8rem;
     margin-bottom: 20px;
-}
-
-.title{
-    font-family: "miniver", sans-serif;
 }
 
 .text-content p {
@@ -162,7 +163,6 @@ header {
 }
 
 /* About section part start */
-
 .about-us {
     margin-top: 50px;
     display: flex;
@@ -237,11 +237,9 @@ header {
     color: #ffae00;
     transform: scale(1.2);
   } 
-
   /* About section part end */
 
   /* Menu section part start */
-
   .clr-section{
     /* color: black; */
     background-color: black;
@@ -307,51 +305,6 @@ header {
     color: #ccc;
     margin: 0 10px 15px;
 }
-
-
-/* .menu-section {
-    text-align: center;
-    padding: 50px 20px;
-    background-color: black;
-}
-.menu-section h1 {
-    margin-bottom: 10px;
-    font-size: 2.5em;
-}
-.menu-section .underline {
-    width: 80px;
-    height: 4px;
-    background-color: orange;
-    margin: 10px auto;
-}
-.menu-container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 30px;
-}
-.menu-item {
-    width: 300px;
-    text-align: center;
-    background-color: #2a2a2a;
-    border-radius: 8px;
-    padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-.menu-item img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-}
-.menu-item h3 {
-    margin-top: 15px;
-    font-size: 1.5em;
-}
-.menu-item p {
-    margin-top: 10px;
-    font-size: 1em;
-    color: #ccc;
-} */
 
 .menu {
     text-align: center;
@@ -419,94 +372,9 @@ header {
     font-size: 1rem;
     color: #b0b0b0;
 }
-
   /* Menu section part end */
 
   /* Testimonials section part start  */
-
-  /* .testimonials-section {
-    padding: 50px 0 100px;
-    background: var(--light-pink-color);
-}
-
-.testimonials-section .slider-wrapper{
-    overflow: hidden;
-    margin: 0 60px;
-
-}
-
-.testimonials-section .testimonial {
-    display: flex;
-    padding: 35px;
-    text-align: center;
-    flex-direction: column;
-    align-items: center;
-}
-
-.section-title{
-    color: black;
-    
-
-}
-
-.feedback{
-    color: black;
-}
-
-.testimonials-section .testimonial .user-image {
-    width: 180px;
-    height: 180px;
-    object-fit: cover;
-    margin-bottom: 50px;
-    border-radius: var(--border-radius-circle);
-}
-
-.testimonials-section .testimonial .name{
-    margin-bottom: 16px;
-    font-size: var(--font-size-m);
-}
-
-.testimonials-section .testimonial .feedback{
-    line-height: 25px;
-}
-
-.testimonials-section .swiper-pagination-bullet {
-    width: 15px;
-    height: 15px;
-    opacity: 1;
-    background: var(--secondary-color);
-}
-
-.testimonials-section .swiper-slider-button {
-    margin-top: -50px;
-    color: var(--secondary-color);
-    transition: 0.3s, ease;
-
-}
-
-.testimonials-section .swiper-slider-button:hover{
-    color: var(--primary-color);
-
-}
-
-.testimonials-section .slider-wrapper{
-    margin: 0 0 30px;
-
-}
-
-.testimonials-section .swiper-slider-button{
-    display: none;
-} */
-
-/* body {
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #f8f8f8;
-} */
-
 .section-title{
     color: #000;
     align-items: center;
@@ -614,7 +482,6 @@ header {
 
 
   /* gallery section part start */
-
   .text-style h2{
     color: #000;
     align-items: center;
@@ -670,11 +537,9 @@ header {
     text-align: center;
     font-size: 16px;
 }
-
   /* gallery section part end */
 
   /* Footer section part start */
-
   .text-style{
     color: #000;
     align-items: center;
@@ -782,7 +647,6 @@ h1 {
 .contact-form1 button:hover {
     background-color: #3a1f1f;
 }
-
   /* Footer section part end */
 
 
@@ -857,18 +721,6 @@ h1 {
 /* About section part end */
 
   /* Menu section part start */
-/* @media (max-width: 768px) {
-    .menu-item-1, .menu-item-2, .menu-item-3, .menu-item-4, .menu-item-5, .menu-item-6 {
-        width: 90%;
-    }
-}
-
-@media (min-width: 769px) and (max-width: 1024px) {
-    .menu-item-1, .menu-item-2, .menu-item-3, .menu-item-4, .menu-item-5, .menu-item-6 {
-        width: 45%;
-    }
-} */
- 
 @media (max-width: 768px) {
     .menu-container {
         flex-direction: column;
@@ -879,12 +731,10 @@ h1 {
         flex-direction: column;
     }
 }
-
 /* Menu section part end */
 
 
-  /* gallery section part start */
-
+/* gallery section part start */
 @media (max-width: 768px) {
     .gallery {
         grid-template-columns: 1fr 1fr;
@@ -910,5 +760,4 @@ h1 {
         margin-bottom: 20px;
     }
 }
-
   /* Footer section part end */

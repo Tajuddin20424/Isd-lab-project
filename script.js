@@ -1,29 +1,13 @@
-// const menuOpenButton = document.querySelector("#menu-open-button");
-// const menuCloseButton = document.querySelector("#menu-close-button");
-
-// menuOpenButton.addEventListener("click", () => {
-//     Toggle mobile menu visibility
-//     document.body.classList.toggle("show-mobile-menu");
-// });
-
-// Close menu when the close button is clicked
-// menuCloseButton.addEventListener("click", () => menuOpenButton.click ()); 
-
-
-
 /* Header / Navbar and Hero section part start */
-
 const mobileMenu = document.getElementById('mobile-menu');
 const navMenu = document.querySelector('.nav-menu');
 
 mobileMenu.addEventListener('click', () => {
     navMenu.classList.toggle('active');
 });
-
 /* Header / Navbar and Hero section part end */
 
 // About section part start
-
 // Add animations when the section comes into view
 document.addEventListener("DOMContentLoaded", () => {
     const aboutUsSection = document.querySelector(".about-us");
@@ -52,28 +36,10 @@ document.addEventListener("DOMContentLoaded", () => {
       icon.style.color = "#555";
     });
   });
-
-
-  
 // About section part end
 
 
 //  Menu section part start 
-
-// Add hover effects with JavaScript (optional)
-// document.addEventListener("DOMContentLoaded", function () {
-//     const menuItems = document.querySelectorAll(".menu-list li");
-//     menuItems.forEach((item) => {
-//         item.addEventListener("mouseenter", () => {
-//             item.style.transform = "scale(1.05)";
-//         });
-//         item.addEventListener("mouseleave", () => {
-//             item.style.transform = "scale(1)";
-//         });
-//     });
-// });
-
-
 document.addEventListener("DOMContentLoaded", () => {
     const menuItems = document.querySelectorAll(".menu-item");
 
@@ -83,45 +49,9 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 });
-
-
 //  Menu section part end
 
-// Initialize Swiper
-// const swiper = new Swiper('.slider-wrapper', {
-//     loop: true,
-//     grabCursor: true,
-//     spaceBetween: 25,
-  
-//     // If we need pagination
-//     pagination: {
-//       el: '.swiper-pagination',
-//       clickable: true,
-//       dynamicBullets: true,
-//     },
-  
-//     // Navigation arrows
-//     navigation: {
-//       nextEl: '.swiper-button-next',
-//       prevEl: '.swiper-button-prev',
-//     },
-
-//     // Responsive breakpoints
-//     breakpoints: {
-//         0: {
-//             slidersPerView: 1
-//         },
-//         768: {
-//             slidersPerView: 2
-//         },
-//         1024: {
-//             slidersPerView: 3
-//         }
-//     }
-//   });
-
 // Testimonials section part start
-
 const slides = document.querySelector('.slides');
 const slide = document.querySelectorAll('.slide');
 const dots = document.querySelectorAll('.dot');
@@ -154,10 +84,7 @@ dots.forEach(dot => {
 
 next.addEventListener('click', nextSlide);
 prev.addEventListener('click', prevSlide);
-
-
 // Testimonials section part end
-
 
  /* gallery section part start */
 document.querySelectorAll('.gallery-item').forEach(item => {
@@ -165,12 +92,10 @@ document.querySelectorAll('.gallery-item').forEach(item => {
       alert('You clicked on an image!');
   });
 });
-
  /* gallery section part end */
 
 
 //  Footer section part start
-
 document.getElementById('contactForm').addEventListener('submit', function(event) {
   event.preventDefault();
 
@@ -185,6 +110,4 @@ document.getElementById('contactForm').addEventListener('submit', function(event
       alert('Please fill out all fields before submitting.');
   }
 });
-
-
 //  Footer section part end
